@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Selected Details" max_length="40" name="x_69202_appointmen_selected_details" type="collection">
+        <element label="Address" max_length="100" name="address" type="string"/>
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="Number" max_length="32" name="number" reference="x_69202_appointmen_appointment_table" type="reference"/>
+        <element label="State" max_length="40" name="state" type="string"/>
+        <index name="index">
+            <element name="number"/>
+        </index>
+    </element>
+</database>

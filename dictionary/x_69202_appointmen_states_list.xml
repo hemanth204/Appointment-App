@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="States List" max_length="40" name="x_69202_appointmen_states_list" type="collection">
+        <element display="true" label="State" max_length="40" name="state" type="string"/>
+    </element>
+</database>

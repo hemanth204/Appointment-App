@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="detail_about_issue" label="Detail About Issue" language="en" table="x_69202_appointmen_appointment_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>detail_about_issue</element>
+            <help/>
+            <hint/>
+            <label>Detail About Issue</label>
+            <language>en</language>
+            <name>x_69202_appointmen_appointment_table</name>
+            <plural>Detail About Issues</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-23 03:10:14</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>4e01bdc4dbe85300351059d0cf9619ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Detail About Issue</sys_name>
+            <sys_package display_value="Appointment Book" source="x_69202_appointmen">00bfe584dbe85300351059d0cf961999</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Appointment Book">00bfe584dbe85300351059d0cf961999</sys_scope>
+            <sys_update_name>sys_documentation_x_69202_appointmen_appointment_table_detail_about_issue_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-23 03:10:14</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

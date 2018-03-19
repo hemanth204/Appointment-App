@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Book Appointment " max_length="40" name="x_69202_appointmen_appointment_table" type="collection">
+        <element label="Address" max_length="40" name="address" type="string"/>
+        <element label="City" max_length="32" name="city" reference="x_69202_appointmen_cities_list" reference_qual="javascript:new Sorted_List().sort()" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Date of Appointment?" max_length="40" name="date_of_appointment" type="glide_date_time"/>
+        <element default="100" label="Detail About Issue" max_length="40" name="detail_about_issue" type="string"/>
+        <element label="Name of Patient" max_length="40" name="name_of_patient" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
+        <element label="State" max_length="32" name="state" reference="x_69202_appointmen_states_list" type="reference"/>
+        <element choice="3" default="1" label="Status" max_length="40" name="status" read_only="true" type="string">
+            <choice>
+                <element label="Approved" value="3"/>
+                <element label="Rejected" value="4"/>
+                <element label="Submitted" value="2"/>
+                <element label="Under Submission" value="1"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="city"/>
+        </index>
+        <index name="index2">
+            <element name="state"/>
+        </index>
+    </element>
+</database>

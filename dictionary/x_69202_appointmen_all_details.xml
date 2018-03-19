@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="All Details" max_length="40" name="x_69202_appointmen_all_details" type="collection">
+        <element label="Hospital  Address" max_length="100" name="hospital_address" type="string"/>
+        <element label="Hospital City" max_length="32" name="hospital_city" reference="x_69202_appointmen_cities_list" type="reference"/>
+        <element label="Hospital State" max_length="32" name="hospital_state" reference="x_69202_appointmen_states_list" type="reference"/>
+        <index name="index">
+            <element name="hospital_city"/>
+        </index>
+        <index name="index2">
+            <element name="hospital_state"/>
+        </index>
+    </element>
+</database>

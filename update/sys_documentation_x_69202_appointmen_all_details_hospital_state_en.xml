@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="hospital_state" label="Hospital State" language="en" table="x_69202_appointmen_all_details">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>hospital_state</element>
+            <help/>
+            <hint/>
+            <label>Hospital State</label>
+            <language>en</language>
+            <name>x_69202_appointmen_all_details</name>
+            <plural>Hospital States</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-23 03:23:21</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>de04f588dbe85300351059d0cf961954</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Hospital State</sys_name>
+            <sys_package display_value="Appointment Book" source="x_69202_appointmen">00bfe584dbe85300351059d0cf961999</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Appointment Book">00bfe584dbe85300351059d0cf961999</sys_scope>
+            <sys_update_name>sys_documentation_x_69202_appointmen_all_details_hospital_state_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-23 03:23:21</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

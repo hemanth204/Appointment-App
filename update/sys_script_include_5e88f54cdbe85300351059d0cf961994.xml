@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_69202_appointmen.Sorted_List</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>Sorted_List</name>
+        <script><![CDATA[var Sorted_List = Class.create();
+Sorted_List.prototype = {
+    initialize: function() {
+    },
+sort: function(){
+	var all=' ';
+	var st=current.state.getDisplayValue();
+	gs.info("state is "+st);
+	var a=new GlideRecord('x_69202_appointmen_all_details');
+	a.addQuery('hospital_state.state',st);
+	a.query();
+	while(a.next()){
+		gs.info("loop");
+		all+=(','+a.hospital_city.toString());
+		//gs.info(all);
+	}
+	return 'sys_idIN' +all;
+},
+    type: 'Sorted_List'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-23 03:51:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5e88f54cdbe85300351059d0cf961994</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Sorted_List</sys_name>
+        <sys_package display_value="Appointment Book" source="x_69202_appointmen">00bfe584dbe85300351059d0cf961999</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Appointment Book">00bfe584dbe85300351059d0cf961999</sys_scope>
+        <sys_update_name>sys_script_include_5e88f54cdbe85300351059d0cf961994</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-23 04:05:25</sys_updated_on>
+    </sys_script_include>
+</record_update>
